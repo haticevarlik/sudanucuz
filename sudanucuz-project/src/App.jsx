@@ -2,13 +2,23 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from "./layout/Header"
+import Footer from './layout/Footer'
+import PageContent from './layout/PageContent'
+import HomePage from './pages/HomePage'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="bg-blue-500 text-white p-4 rounded-lg">
+      <Header/>
+
+
+    
+      {/* <div className="bg-blue-500 text-white p-4 rounded-lg">
         Hello, Tailwind!
       </div>
       <div>
@@ -30,7 +40,8 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
+      
     </>
   )
 }
