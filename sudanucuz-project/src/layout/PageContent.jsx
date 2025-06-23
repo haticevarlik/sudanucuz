@@ -1,8 +1,15 @@
 import React, {useState} from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
-export default function PageContent(){
+export default function PageContent({children}){
     return (
+        <>
+            <Header/>
 
-        <div> PAGE CONTENT </div>
+            <main> {children} </main>
+
+            <Footer/>
+        </>
     );
 }
