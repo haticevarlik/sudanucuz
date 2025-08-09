@@ -11,9 +11,6 @@
 #root {
   max-width: 1440px;
   width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  padding: 1em ;
   
 }
 
@@ -27,4 +24,11 @@ html, body {
   min-height: 100vh;
 }
 
-
+@layer components {
+  .footer_h5 {
+    @apply text-[16px] font-bold leading-[58px] tracking-[0.1px] text-[#252B42];
+  }
+  .footer_p {
+    @apply text-[px] leading-[24px] tracking-[0.2px] text-[#737373];
+  }
+}

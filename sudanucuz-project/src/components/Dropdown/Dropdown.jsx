@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import { ChevronDown } from "lucide-react";
-import './Dropdown.css';
 
 
 export default function Dropdown(){
@@ -11,7 +10,7 @@ export default function Dropdown(){
         Shop
         <ChevronDown className="w-4 h-4" />
       </button>
-        <div className="absolute left-0 top-full w-[600px] bg-white shadow-lg z-50 p-6 hidden group-hover:grid grid-cols-2 gap-8">
+        <div className="absolute left-0 top-full w-[272px] bg-white shadow-lg z-50 p-6 hidden group-hover:grid grid-cols-2 gap-8 text-left">
           <div>
             <h3 className="text-sm font-semibold text-gray-800 mb-2">Kadın</h3>
             <ul className="space-y-1 text-sm text-gray-600">
