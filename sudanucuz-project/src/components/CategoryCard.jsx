@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-export default function ProductCard(props){
+export default function CategoryCard(props){
 
 
     const cards = props.categories.map( (category) => (

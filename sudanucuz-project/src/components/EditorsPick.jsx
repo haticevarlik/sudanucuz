@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ProductCard from './ProductCard';
+import CategoryCard from './CategoryCard';
 
 export default function EditorsPick(){
     const categories = [
@@ -33,7 +33,7 @@ export default function EditorsPick(){
                 <h1 className='font-bold text-xl leading-8 '> EDITORS'S PICK</h1>
                 <p className='font-light text-[#737373] text-[14px] leading-0 px-40 pb-12'>Problems trying to resolve the conflict between</p>
 
-                <ProductCard categories={categories} />
+                <CategoryCard categories={categories} />
 
             </div>
         

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { Facebook, Heart, Instagram, Mail, Phone, Search, ShoppingCart, Twitter, Youtube, User, Menu } from 'lucide-react';
 import Dropdown from "../components/Dropdown/Dropdown";
+import { NavLink } from "react-router-dom";
 
 export default function Header(){
     return (
@@ -36,12 +37,13 @@ export default function Header(){
                     <div class="font-bold text-2xl leading-8 tracking-[0.1px]">Bandage</div>
                     <div class="w-full flex items-center justify-between">
                         <nav class="flex items-center gap-[10px]">
-                            <a href="#">Home</a>
-                            <Dropdown/>
-                            <a href="#">About</a>
-                            <a href="#">Blog</a>
-                            <a href="#">Contact</a>
-                            <a href="#">Pages</a>
+                            <NavLink to="/" exact>Home</NavLink>
+                            
+                            <NavLink to="/shop"><Dropdown/></NavLink>
+                            <NavLink to="/shop">About</NavLink>
+                            <NavLink to="#">Blog</NavLink>
+                            <NavLink to="#">Contact</NavLink>
+                            <NavLink to="#">Pages</NavLink>
                         </nav>
 
                         <div class="flex items-center gap-[10px]">
@@ -64,10 +66,11 @@ export default function Header(){
                 </div>
             </div>
             <nav class="flex flex-col items-center gap-[20px] font-medium text-[16px] leading-[30px] tracking-[0.2px] ">
-                <a href="#">Home</a>
-                <a href="#">Product</a>
-                <a href="#">Pricing</a>
-                <a href="#">Contact</a>
+                <NavLink to="/" exact>Home</NavLink>
+                <NavLink to="/shop">Shop</NavLink>
+                <NavLink to="/" exact>Product</NavLink>
+                <NavLink to="/" exact>Pricing</NavLink>
+                <NavLink to="/" exact>Contact</NavLink>
             </nav>
         </div>
 
