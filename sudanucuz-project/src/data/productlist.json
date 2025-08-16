@@ -4,49 +4,81 @@
             "src": "https://images.pexels.com/photos/9558776/pexels-photo-9558776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "caption": "Beyaz Bluz",
             "price":"800 TL",
+            "description":"Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+            "availability":true,
+            "rate":4,
+            "reviewNumber":10,
             "key": 1
         },
         {
             "src": "https://images.pexels.com/photos/7752666/pexels-photo-7752666.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
             "caption": "Beyaz Gömlek",
             "price":"600 TL",
+            "description":"Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+            "availability":false,
+            "rate":4,
+            "reviewNumber":10,
             "key": 2
         },
         {
             "src": "https://images.pexels.com/photos/32071161/pexels-photo-32071161/free-photo-of-siyah-tisortlu-genc-kiz-studyoda-poz-veriyor.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
             "caption": "Çocuk Siyah Tişört",
             "price":"300 TL",
+            "description":"Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+            "availability":false,
+            "rate":4,
+            "reviewNumber":10,
             "key": 3
         },
         {
             "src": "https://images.pexels.com/photos/7624800/pexels-photo-7624800.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
             "caption": "Bej Keten Gömlek",
             "price":"900 TL",
+            "description":"Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+            "availability":true,
+            "rate":4,
+            "reviewNumber":10,
             "key": 4
         },
         {
             "src": "https://images.pexels.com/photos/9558776/pexels-photo-9558776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "caption": "Beyaz Bluz",
             "price":"800 TL",
-            "key": 1
+            "description":"Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+            "availability":true,
+            "rate":4,
+            "reviewNumber":10,
+            "key": 5
         },
         {
             "src": "https://images.pexels.com/photos/7752666/pexels-photo-7752666.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
             "caption": "Beyaz Gömlek",
             "price":"600 TL",
-            "key": 2
+            "description":"Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+            "availability":true,
+            "rate":4,
+            "reviewNumber":10,
+            "key": 6
         },
         {
             "src": "https://images.pexels.com/photos/32071161/pexels-photo-32071161/free-photo-of-siyah-tisortlu-genc-kiz-studyoda-poz-veriyor.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
             "caption": "Çocuk Siyah Tişört",
             "price":"300 TL",
-            "key": 3
+            "description":"Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+            "availability":false,
+            "rate":4,
+            "reviewNumber":10,
+            "key": 7
         },
         {
             "src": "https://images.pexels.com/photos/7624800/pexels-photo-7624800.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
             "caption": "Bej Keten Gömlek",
             "price":"900 TL",
-            "key": 4
+            "description":"Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+            "availability":true,
+            "rate":4,
+            "reviewNumber":10,
+            "key": 8
         }
     ]
 }

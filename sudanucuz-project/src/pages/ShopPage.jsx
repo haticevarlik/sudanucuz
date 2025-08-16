@@ -4,6 +4,7 @@ import ShopCategories from "../components/ShopPage/ShopCategories";
 import ProductCard from "../components/ShopPage/ProductCard";
 import { FaThLarge, FaThList } from "react-icons/fa";
 import productlist from '../data/productlist.json';
+import SponsorLogos from "../layout/SponsorLogos";
 
 export default function ShopPage(){
     const products = productlist.products;
@@ -40,6 +41,7 @@ export default function ShopPage(){
             <ProductCard products={products}/>
         </div>
         
+        <SponsorLogos/>
         
         </>
     );

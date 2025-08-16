@@ -65,7 +65,7 @@ export default function Header(){
                     <Menu color="black" size={16}/>
                 </div>
             </div>
-            <nav class="flex flex-col items-center gap-[20px] font-medium text-[16px] leading-[30px] tracking-[0.2px] ">
+            <nav class="flex flex-col items-center gap-[20px] font-medium text-[16px] leading-[30px] tracking-[0.2px] py-4">
                 <NavLink to="/" exact>Home</NavLink>
                 <NavLink to="/shop">Shop</NavLink>
                 <NavLink to="/" exact>Product</NavLink>
