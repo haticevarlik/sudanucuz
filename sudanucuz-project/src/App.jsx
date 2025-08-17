@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import ShopPage from './pages/ShopPage'
 import ProductDetail from './pages/ProductDetail'
+import Contact from './pages/Contact'
 
 
 
@@ -24,6 +25,10 @@ function App() {
           <Route exact path="/shop/:productKey">
             <ProductDetail/>
           </Route>
+          <Route path="/contact">
+            <Contact/>
+          </Route>
+          
         </Switch>
       </PageContent>
     </Router>

@@ -41,9 +41,10 @@ export default function Header(){
                             
                             <NavLink to="/shop"><Dropdown/></NavLink>
                             <NavLink to="/shop">About</NavLink>
-                            <NavLink to="#">Blog</NavLink>
-                            <NavLink to="#">Contact</NavLink>
-                            <NavLink to="#">Pages</NavLink>
+                            <NavLink to="/pricing">Pricing</NavLink>
+                            <NavLink to="/about">About Us</NavLink>
+                            <NavLink to="/contact">Team</NavLink>
+                            <NavLink to="/contact">Contact</NavLink>
                         </nav>
 
                         <div class="flex items-center gap-[10px]">
@@ -68,9 +69,10 @@ export default function Header(){
             <nav class="flex flex-col items-center gap-[20px] font-medium text-[16px] leading-[30px] tracking-[0.2px] py-4">
                 <NavLink to="/" exact>Home</NavLink>
                 <NavLink to="/shop">Shop</NavLink>
-                <NavLink to="/" exact>Product</NavLink>
-                <NavLink to="/" exact>Pricing</NavLink>
-                <NavLink to="/" exact>Contact</NavLink>
+                <NavLink to="/pricing" exact>Pricing</NavLink>
+                <NavLink to="/about" exact>About Us</NavLink>
+                <NavLink to="/team" exact>Team</NavLink>
+                <NavLink to="/contact" exact>Contact</NavLink>
             </nav>
         </div>
 
