@@ -49,11 +49,11 @@ export default function Contact(){
         </div>
         <div className="flex flex-col bg-[#FAFAFA] items-center py-12">
             <PiArrowBendRightDownLight size={75} className="text-sky-500"/>
-            <p className="text-[#252B42] text-sm font-bold tracking-wide pt-2">WE CANT'T WAIT TO MEET YOU</p>
+            <p className="text-[#252B42] text-sm font-bold tracking-wide pt-2">WE CAN'T WAIT TO MEET YOU</p>
             <p className="text-[#252B42] text-6xl font-bold tracking-wide py-6">Let's Talk</p>
             <button className="bg-sky-500 text-white rounded text-center px-8 py-2 font-semibold">Try it free now</button>
         </div>
-        <SponsorLogos></SponsorLogos>
+        <SponsorLogos/>
         
 
         </>
