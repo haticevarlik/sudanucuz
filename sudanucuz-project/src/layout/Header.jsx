@@ -43,7 +43,7 @@ export default function Header(){
                             <NavLink to="/shop">About</NavLink>
                             <NavLink to="/pricing">Pricing</NavLink>
                             <NavLink to="/about">About Us</NavLink>
-                            <NavLink to="/contact">Team</NavLink>
+                            <NavLink to="/team">Team</NavLink>
                             <NavLink to="/contact">Contact</NavLink>
                         </nav>
 
